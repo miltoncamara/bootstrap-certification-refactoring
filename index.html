@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+            crossorigin="anonymous">
+            <style>
+                .modal-header h1 {
+                    font-size: 4rem;
+                }
+                
+                .modal-primary .modal-header {
+                    background-color: #0275d8;
+                }
+                
+                .modal-primary .modal-body h2 {
+                    color: #0275d8;
+                }
+
+                .modal-success .modal-header {
+                    background-color: #5cb85c;
+                }
+                
+                .modal-success .modal-body h2 {
+                    color: #5cb85c;
+                }  
+
+                .modal-warning .modal-header {
+                    background-color: #f0ad4e;
+                }
+                
+                .modal-warning .modal-body h2 {
+                    color: #f0ad4e;
+                }  
+
+                .modal-danger .modal-header {
+                    background-color: #d9534f;
+                }
+                
+                .modal-danger .modal-body h2 {
+                    color: #d9534f;
+                }                                                
+                
+                .modal-body h3 {
+                    color: gray;
+                    font-size: 1.3rem;
+                }
+                
+                .modal-header .modal-title,
+                .modal-header .close,
+                .modal-header i {
+                    color: #FFF;
+                }
+            </style>
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#primary">
+        Primary Theme
+    </button>
+
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#success">
+        Success Theme
+    </button>
+
+    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#warning">
+        Warning Theme
+    </button>
+
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#danger">
+        Danger Theme
+    </button>
+
+    <div class="modal modal-primary fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-around">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <h1 class="text-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                </h1>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="close right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center">Great !</h2>
+                    <h3 class="text-center">Your data has been successfully saved.</h3>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="button" class="btn btn-sm btn-outline-primary mr-2">BACK TO MY WORK</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">BACK TO STORE HOURS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-success fade" id="success" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-around">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <h1 class="text-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                </h1>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="close right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center">Great !</h2>
+                    <h3 class="text-center">Your data has been successfully saved.</h3>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="button" class="btn btn-sm btn-outline-success mr-2">BACK TO MY WORK</button>
+                        <button type="button" class="btn btn-sm btn-outline-success">BACK TO STORE HOURS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-warning fade" id="warning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-around">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <h1 class="text-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                </h1>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="close right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center">Great !</h2>
+                    <h3 class="text-center">Your data has been successfully saved.</h3>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="button" class="btn btn-sm btn-outline-warning mr-2">BACK TO MY WORK</button>
+                        <button type="button" class="btn btn-sm btn-outline-warning">BACK TO STORE HOURS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-danger fade" id="danger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-around">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <h1 class="text-center">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                </h1>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="close right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center">Great !</h2>
+                    <h3 class="text-center">Your data has been successfully saved.</h3>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="button" class="btn btn-sm btn-outline-danger mr-2">BACK TO MY WORK</button>
+                        <button type="button" class="btn btn-sm btn-outline-danger">BACK TO STORE HOURS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
